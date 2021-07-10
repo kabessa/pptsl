@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Dps eu coloco</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/padrao.css">
+        <link rel="shortcut icon" href="img/spock.png">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Qahiri&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <div class="linha">
+                <div class="jogador">
+                    <div class="jogador-titulo">
+                        <h2>Máquina</h2>
+                    </div>
+                    <div class="jogador-image">
+                        <img src="img/bg.png" id="mao-maquina">
+                    </div>
+                </div>
+                <div class="pontos">
+                    <span id="vs">v.s</span>
+                    <div id="score">
+                        <span id="score-maquina">0</span>:<span id="score-player">0</span>
+                    </div>
+                </div>
+                <div class="jogador">
+                    <div class="jogador-titulo">
+                        <h2 id="nick">Player</h2>
+                    </div>
+                    <div class="jogador-image">
+                        <img src="img/bg.png" id="mao-jogador">
+                    </div>
+                </div>
+            </div>
+            <div class="linha">
+                <div class="butao" onclick="jogo()">
+                    Jogar
+                </div>
+            </div>
+        </div>
+        <script src="js/game.js"></script>
+    </body>
+</html>

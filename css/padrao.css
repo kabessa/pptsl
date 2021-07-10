@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+    --azul-ciano: rgb(0, 214, 214);
+    --cinza-azul: rgb(57, 66, 77);
+    --azul-cinzento: #82a8af;
+    --jogador: #352d7e;
+    --roxo: #1b1453;
+}
+
+body {
+    background-color: var(--cinza-azul);
+}
+
+.container {
+    margin: 2em;
+}
+
+.linha {
+    display: flex;
+    align-items: stretch;
+    align-items: center;
+}
+
+.jogador {
+    text-align: center;
+    width: 45%;
+    margin: 1em;
+    background-color: var(--jogador);
+    border: 3px solid var(--azul-cinzento);
+    border-radius: 1em;
+    font-family: 'Roboto Mono', monospace;
+    overflow: hidden;
+}
+
+.jogador-titulo {
+    padding: 0.5em;
+    background-color: var(--roxo);
+    border-bottom: 3px solid var(--azul-cinzento);
+    color: var(--azul-cinzento);
+    font-size: 1em;
+    text-align: center;
+}
+
+.jogador-image img {
+    border-radius: 1em;
+    width: 60%;
+}
+
+#vs { 
+    font-family: 'Rock Salt', cursive;
+    font-size: 6em;
+    color:rgb(26, 20, 119);
+    -webkit-text-stroke-width: 2.5px;
+    -webkit-text-stroke-color: #FFF;
+}
+
+.pontos {
+    text-align: center;
+}
+
+#score {
+    color: black;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #FFF;
+    font-family: 'Qahiri', sans-serif;
+    font-size: 5em;
+}
+
+.butao {
+    width: 30%;
+    background-color: var(--roxo);
+    margin: auto;
+    margin-top: 1em;
+    padding: 1em;
+    text-align: center;
+    color: white;
+    font-size: 1.3em;
+    border: 3px solid var(--azul-cinzento);
+    border-radius: 1em;
+    font-family: 'Fredoka One', cursive;
+}
+
+.butao:hover {
+    background-color: var(--jogador);
+    transition: 0.6s;
+}
