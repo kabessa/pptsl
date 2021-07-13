@@ -1,7 +1,8 @@
 var scoreUser = 0;
 var scoreMakina = 0;
 
-var nick = prompt("Player nick:");
+var nick = "Player";
+// var nick = prompt("Player nick:");
 
 document.getElementById("nick").textContent = nick;
 

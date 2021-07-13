@@ -16,24 +16,21 @@ body {
 .container {
     margin: 2em;
 }
-.logon {
-    display: flex;
-    align-items: stretch;
-    align-items: center;
-}
+
 .log {
     width: 30%;
     background-color: var(--roxo);
     margin: auto;
-    margin-top: 1em;
     padding: 1em;
     text-align: center;
     color: white;
-    font-size: 1.3em;
+    font-size: 1.6em;
     border: 3px solid var(--azul-cinzento);
     border-radius: 1em;
-    font-family: Ravie, 'Fredoka One', cursive;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
 }
+
 .linha {
     display: flex;
     align-items: stretch;
